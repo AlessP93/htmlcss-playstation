@@ -1,0 +1,56 @@
+/*--------------
+     HEADER
+--------------*/
+
+.header-left, .header-right {
+    display: flex;
+}
+
+.header-left li, .header-right li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-left a, .header-right a {
+    color: black;
+}
+
+.header-right {
+    justify-content: right;
+}
+
+.sony {
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.sony img {
+    width: 5%;
+}
+
+.search {
+    padding: 15px 10px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+/*--------------
+   MAIN-HERO
+--------------*/
+
+.section-hero {
+    background-image: url("../css/img/jumbo-bg.png");
+    object-fit: cover;
+    color: white;
+}
+
+.section-hero img {
+    width: 10%;
+}
+
