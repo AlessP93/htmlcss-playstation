@@ -1,6 +1,14 @@
 /*--------------
      HEADER
 --------------*/
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
 
 .header-left, .header-right {
     display: flex;
@@ -22,10 +30,10 @@
 
 .sony {
     background-color: black;
-    height: 30px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
+    height: 30px;
+    align-items: center;
 }
 
 .sony img {
@@ -34,6 +42,7 @@
 
 .search {
     padding: 15px 10px;
+    cursor: pointer;
 }
 
 .btn {
@@ -44,16 +53,23 @@
    MAIN-HERO
 --------------*/
 
+main {
+    padding-top: 85px;
+}
+
 .section-hero {
     background-image: url("../css/img/jumbo-bg.png");
-    object-fit: cover;
+    background-size: cover;
     color: white;
-    background-repeat: no-repeat;
     padding: 200px 0;
 }
 
 .section-hero img {
     width: 10%;
+}
+
+.returnal-img {
+    width: 20%;
 }
 
 .six-img {
@@ -71,4 +87,33 @@
 
 .ps5-items img {
     width: 50%;
+}
+
+/*--------------
+   MAIN-TAKE
+--------------*/
+
+.section_take {
+    background-image: url("../css/img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.take_img {
+    width: 20%;
+}
+
+.bg_grey {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+/*--------------
+   MAIN-PS4
+--------------*/
+
+.ps4_img {
+    width: 100%;
 }
