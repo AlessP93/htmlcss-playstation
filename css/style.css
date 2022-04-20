@@ -144,3 +144,33 @@ main {
     width: 100%;
     border-radius: 10px;
 }
+
+/*--------------
+   FOOTER
+--------------*/
+
+footer {
+    background-color: rgb(26, 26, 166);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo_ps4_white {
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.ps_globe {
+    width: 3%;
+}
+
+.ps_orange {
+    width: 20%;
+}
