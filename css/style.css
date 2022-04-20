@@ -48,9 +48,27 @@
     background-image: url("../css/img/jumbo-bg.png");
     object-fit: cover;
     color: white;
+    background-repeat: no-repeat;
+    padding: 200px 0;
 }
 
 .section-hero img {
     width: 10%;
 }
 
+.six-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.play-link a {
+    text-decoration: none;
+}
+
+.ps5 {
+    width: 80%;
+}
+
+.ps5-items img {
+    width: 50%;
+}
