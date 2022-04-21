@@ -58,8 +58,8 @@ main {
 }
 
 .section-hero {
-    background-image: url("../css/img/jumbo-bg.png");
-    background-size: cover;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
     color: white;
     padding: 200px 0;
 }
@@ -94,7 +94,7 @@ main {
 --------------*/
 
 .section_take {
-    background-image: url("../css/img/it-takes-two-hero-banner-desktop.jpg");
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     color: white;
     background-repeat: no-repeat;
