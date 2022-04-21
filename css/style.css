@@ -1,6 +1,11 @@
 /*--------------
      HEADER
 --------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -68,13 +73,18 @@ main {
     width: 10%;
 }
 
-.returnal-img {
-    width: 20%;
+.returnal_img {
+    width: 80%;
 }
 
 .six-img {
     width: 100%;
     border-radius: 20px;
+}
+
+.six-img:hover {
+   transform: translateY(-10px);
+   transition-duration: 1s;
 }
 
 .play-link a {
@@ -86,7 +96,7 @@ main {
 }
 
 .ps5-items img {
-    width: 50%;
+    width: 100%;
 }
 
 /*--------------
@@ -145,6 +155,11 @@ main {
     border-radius: 10px;
 }
 
+.social_media:hover {
+    transform: translateY(-20px);
+    transition-duration: 1s;
+ }
+
 /*--------------
    FOOTER
 --------------*/
@@ -173,4 +188,39 @@ footer ul li{
 
 .ps_orange {
     width: 20%;
+}
+
+footer a:hover {
+    color: rgb(255, 140, 0);
+}
+
+/*--------------
+    OVERLAY
+--------------*/
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(208, 208, 208, 0.5);
+    font-size: 60px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.img_over:hover .overlay{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.img_over {
+    display: block;
+    position: relative;
 }
