@@ -70,12 +70,8 @@ main {
     background-repeat: no-repeat;
 }
 
-.section-hero img {
-    width: 10%;
-}
-
 .returnal_img {
-    width: 80%;
+    width: 15%;
 }
 
 .six-img {
@@ -93,7 +89,7 @@ main {
 }
 
 .ps5 {
-    width: 80%;
+    width: 100%;
 }
 
 .ps5-items img {
@@ -106,7 +102,7 @@ main {
 
 .section_take {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-size: cover;
+    background-position: center;
     color: white;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -154,6 +150,7 @@ main {
 .social_media {
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .social_media:hover {
@@ -219,6 +216,7 @@ footer a:hover {
 .img_over:hover .overlay{
     opacity: 1;
     transition-duration: 1s;
+    width: calc(100% - );
 }
 
 .img_over {
